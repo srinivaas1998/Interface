@@ -20,7 +20,7 @@ class WebDevelopment implements Languages{
 }  
 class Testing{  
 	public static void main(String args[]){  
-		WebDevelopment w =new WebDevelopment();  
+		Languages w =new WebDevelopment();  
 		w.html();  
 		w.css();
 		w.javaScript();
