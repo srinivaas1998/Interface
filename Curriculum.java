@@ -1,3 +1,6 @@
+//Basic interface concept.
+
+
 public interface Curriculum {
 	
 		public void learn();
@@ -18,3 +21,8 @@ class Testing{
     s.code();
 	}
 }
+//Output
+/*
+A student must learn code before starting to code
+A student must code only after learning 
+*/
