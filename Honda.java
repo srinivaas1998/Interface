@@ -1,4 +1,4 @@
-// Using Multiple Interfaces
+// Using Interfaces to achieve Multiple Inheritance
 public interface Honda {
 	public void petrol();
 
