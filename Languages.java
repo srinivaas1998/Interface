@@ -1,4 +1,4 @@
-
+//Interface in java using default method
 public interface Languages {
 	void html();
 	void css();
@@ -9,13 +9,13 @@ public interface Languages {
 }
 class WebDevelopment implements Languages{  
 	public void html(){
-		System.out.println("HTML is used for developing WebPages");
+		System.out.println("HTML is used for developing WebPages.");
 	}  
 	public void css(){
-		System.out.println("CSS is used for styling webpages");
+		System.out.println("CSS is used for styling webpages.");
 	}
 	public void javaScript(){
-		System.out.println("JavaScript is used for performing operations on the webpage");
+		System.out.println("JavaScript is used for performing operations on the webpage.");
 	}
 }  
 class Testing{  
@@ -26,3 +26,11 @@ class Testing{
 		w.javaScript();
 		w.msg();
 }}
+//Output
+/*
+HTML is used for developing WebPages.
+CSS is used for styling webpages.
+JavaScript is used for performing operations on the webpage.
+Notepad can be used as default for writing code.
+*/
+
