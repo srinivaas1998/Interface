@@ -1,10 +1,10 @@
-// Interface in Java 8 with default method
+
 public interface Languages {
 	void html();
 	void css();
 	void javaScript();
 	default void msg() {
-		System.out.println("Notepad can be used as default for witing code."); //Default Method
+		System.out.println("Notepad can be used as default for writing code."); //Default Method
 	}
 }
 class WebDevelopment implements Languages{  
@@ -20,15 +20,9 @@ class WebDevelopment implements Languages{
 }  
 class Testing{  
 	public static void main(String args[]){  
-		Languages w =new WebDevelopment();  
+		WebDevelopment w =new WebDevelopment();  
 		w.html();  
 		w.css();
 		w.javaScript();
+		w.msg();
 }}
-
-//Output
-/*
-HTML is used for developing WebPages
-CSS is used for styling webpages
-JavaScript is used for performing operations on the webpage
-*/
